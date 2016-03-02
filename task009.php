@@ -39,7 +39,7 @@ if(isset($_POST['city'])&&!empty($_POST['city']))
 	foreach ($arr as $key => $value) {
 		if($value==$city)
 		{
-			echo "$city is in $key";
+			echo "$city is in $key";break;
 		}
 	}
 }
